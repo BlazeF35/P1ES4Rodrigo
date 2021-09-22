@@ -20,7 +20,7 @@ public class StartApp {
 		
 		int option = scanner.nextInt();
 		
-		if (option == 1) {
+	if (option == 1) {
             AbstractFactory factory = FactoryProvider.getAnimalType(Animal.VERTEBRADOS);
             Eat elephant = factory.getAnimal(Type.ELEPHANT);
             elephant.eat();
